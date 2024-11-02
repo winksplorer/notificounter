@@ -1,0 +1,4 @@
+notificounter
+*.o
+.cache
+.vscode

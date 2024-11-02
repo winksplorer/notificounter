@@ -1,0 +1,31 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-O2",
+      "-Isrc",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-Wno-newline-eof",
+      "-I/usr/include/gdk-pixbuf-2.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/x86_64-linux-gnu",
+      "-I/usr/include/webp",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread",
+      "-c",
+      "-o",
+      "src/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/wink/repos/notificounter",
+    "file": "/home/wink/repos/notificounter/src/main.c",
+    "output": "/home/wink/repos/notificounter/src/main.o"
+  }
+]
