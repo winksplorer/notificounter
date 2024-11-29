@@ -1,6 +1,7 @@
+OUT = notificounter
+
 CC := clang
 CFLAGS = -O2 -g -Isrc -Wall -Wextra -pedantic -Wno-newline-eof $(shell pkg-config --cflags libnotify)
-OUT = notificounter
 CFILES = $(shell find src -type f -name '*.c')
 OBJECTS = $(CFILES:.c=.o)
 

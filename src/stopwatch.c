@@ -1,5 +1,5 @@
-#include <cleanup.h>
-#include <stopwatch.h>
+#include "cleanup.h"
+#include "stopwatch.h"
 
 #include <bits/time.h>
 #include <time.h>

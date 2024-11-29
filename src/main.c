@@ -1,8 +1,7 @@
-#include <cleanup.h>
-#include <stopwatch.h>
-#include <countdown.h>
+#include "cleanup.h"
+#include "stopwatch.h"
+#include "countdown.h"
 
-#include <unistd.h>
 #include <libnotify/notify.h>
 #include <stdlib.h>
 #include <signal.h>
